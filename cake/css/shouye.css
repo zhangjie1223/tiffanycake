@@ -1,0 +1,65 @@
+.navbar-default {
+    background-color: powderblue;
+    border-color: white;
+    top: 10px;
+}
+
+/*.carousel {
+	top: 15px;
+}*/
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/*选择的是所有class为thumbnail下面的img*/
+.thumbnail img{
+	border: 1px solid pink;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.thumbnail img:hover{
+	transform: scale(1.1);
+}
+
+.nav-tabs.nav-stacked > li > a {
+	color: gray;
+}
+
+.carousel-inner img{
+	margin:0 auto;
+}
+
+.dl{
+	color: gainsboro;
+	float: right;
+}
+
+.footer-copyright{
+	color: lightsteelblue;
+	text-align:center;
+}
+
+.cheese{	
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 80%;
+    height: 650px;
+    margin:0 auto;
+}
+
+.suo{
+	top: -10px;
+}
+.breadcrumb{
+    background-color: powderblue;
+    border-color: white;
+}
+
+.breadcrumb > li > a {
+    color: white;
+}
+.qysc{
+	margin:0 auto;
+}
