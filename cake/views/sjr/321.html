@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../plugins/css/public.css" />
+		<link rel="stylesheet" href="../../plugins/css/style.css" />
+		<link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="//cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<title>蒂芙尼蛋糕官网</title>
+		<style type="text/css">
+			.navbar{
+				top: 10px;
+			}
+			#outer{
+				top: 10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+	
+		<!--头部-->
+		<nav class="navbar navbar-default" role="navigation" style="background-color: powderblue;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+					            <span class="sr-only">切换导航</span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					        </button>
+					<a class="navbar-brand" href=" ">蒂芙尼蛋糕官网|TIFFANY CAKE</a>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">产品介绍</a>
+						</li>
+						<li>
+							<a href="#">制作方式</a>
+						</li>
+						<li class="active">
+							<a href="#">帮助中心</a>
+						</li>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								其它 <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">搜索产品</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">留言板</a>
+								</li>
+								<li>
+									<a href="#">投诉</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">企业试吃</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href=>配送范围</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="outer">
+
+		<!--主体内容-->
+		<section class="publicMian ">
+			<div class="left">
+				<h2 class="leftH2"><span class="span1"></span>功能列表 <span></span></h2>
+				<nav>
+					<ul class="list">
+						<li>
+							<a href="">帮助中心</a>
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+			<div class="right">
+				<div class="location">
+					<strong>你现在所在的位置是:</strong>
+					<span>帮助中心</span>
+				</div>
+				<div class="hll_content">
+					<div class="content_bt"><span style="color:red;">评价/投诉</span></div>
+					<div class="hll_bjk ">
+						<div style="width:100%;padding-top:10px;">注意：带<span style="color:black;">*</span>项目为必填项，请认真填写各项内容。</div>
+						<form name="fgmessageBoardForm" method="post" action="message.php" class="ajaxForm">
+							<input type="hidden" name="act" value="act_add_message" />
+							<div class="zc_xx">
+								<!-- <ul>
+					<li class="text_right"><b>*</b>主题：</li>
+					<li>
+						<div class="xx"><input name="msg_title" maxlength="60" size="60" value="" class="bg" type="text"></div>
+					</li>
+				</ul> -->
+								<ul>
+									<li class="text_right"><b>*</b>留言类型：</li>
+									<li>
+										<div class="xx">
+											<select name="msg_type">
+												<option value="-1">请选择</option>
+												<option value="1">投诉建议</option>
+												<option value="2">产品咨询</option>
+												<option value="3">业务咨询</option>
+												<option value="5">团购业务</option>
+												<option value="0">其他</option>
+											</select>
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li class="text_right"><b>*</b>姓名：</li>
+									<li>
+
+										<div class="xx"><input name="user_name" maxlength="20" size="26" value="" class="bg" type="text"></div>
+									</li>
+								</ul>
+								<ul>
+									<li class="text_right"><b>*</b>Email：</li>
+									<li>
+										<div class="xx"><input name="email" maxlength="50" size="26" value="" class="bg" type="text"></div>
+									</li>
+								</ul>
+								<ul>
+									<li class="text_right"><b>*</b>联系电话：</li>
+									<li>
+										<div class="xx"><input name="msg_phone" size="26" value="" class="bg" type="text"></div>
+									</li>
+								</ul>
+								<ul>
+									<li class="text_right"><b>*</b>评价：</li>
+									<li>
+										<div class="xx"><textarea name="msg_content" cols="70" rows="4"></textarea></div>
+									</li>
+								</ul>
+
+							</div>
+							
+							<div>
+
+
+          <button type="button" class="btn btn-success" style="width:100px; rows="4";left: 100px;>提交</button>
+
+ <button type="button" class="btn btn-success" style="width:100px; rows="4";left: 100px;>重置</button>
+							</div>
+
+					</div>
+		</section>
+
+		<!--点击删除按钮后弹出的页面-->
+		<div class="zhezhao"></div>
+		<div class="remove" id="removeUse">
+			<div class="removerChid">
+				<h2>提示</h2>
+				<div class="removeMain">
+					<p>你确定要删除该用户吗？</p>
+					<a href="#" id="yes">确定</a>
+					<a href="#" id="no">取消</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<hr>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container" style="text-align: center;">
+					<span>Copyright &copy;2012-2017 蒂芙尼蛋糕官网|TIFFANY CAKE版权所有</span>
+					<span>沪ICP备12045835</span>
+					<span>沪公网安备31010802001150</span>
+					<span></span>
+				</p>
+			</div>
+		</div>
+	</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/js.js"></script>
+		<script src="js/time.js"></script>
+
+	</body>
+
+</html>
