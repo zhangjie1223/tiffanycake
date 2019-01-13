@@ -1,6 +1,7 @@
 .navbar-default {
-    background-color: black;
+    background-color: powderblue;
     border-color: #e7e7e7;
+       top: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -10,4 +11,8 @@
 /**选择的是所有的class="thumbnail"元素下面所有的img标签在鼠标滑过的时候产生的样式**/
 .thumbnail img:hover{
 	border: 1px solid red;
+}
+.footer-copyright{
+	color: lightsteelblue;
+	text-align:center;
 }
